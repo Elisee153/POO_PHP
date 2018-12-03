@@ -5,7 +5,7 @@
         protected $varpro="Varpro";
         private $varpriv="Varpriv";
 
-        public function lirevar(){
+        protected function lirevar(){
             echo "$this->varpub<br/>";
             echo "$this->varpro<br/>";
             echo "$this->varpriv<br/>";

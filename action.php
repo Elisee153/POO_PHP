@@ -20,6 +20,7 @@ class Action{
         }
     }
 }
+//nom de la class
 $maclass="Action";
 $hospital=new $maclass();
 $hospital->nom="Sendwe";
@@ -29,6 +30,7 @@ $hospital->heurfin=24;
 $hospital->info();echo '<br/>';
 var_dump($hospital);
 $str=gettype($hospital);
+//verifie si $hospital est une instance de $maclass
 if(!($hospital instanceof $maclass)){
     echo '<br/>Ok';
 }
