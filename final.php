@@ -1,5 +1,5 @@
 <?php
-//===========================================================================
+//================================================================================
 //si on fait preceder la class par le mot final, elle sera non heritable
 class Personnage{
     protected $nom;
@@ -13,7 +13,7 @@ class Personnage{
         echo $this->nom;
     } 
 }
-//===================================================================================
+//====================================================================================
 class Enfant extends Personnage{
     private $taille;
     public function __construct($n,$o,$t){
